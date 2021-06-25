@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="/GroceryList/styles.css">
+    <script src="/GroceryList/script.js" defer></script>   
+</head>
+<body>
+    <h1>Welcome to the Grocery List</h1>
+    <div class="theList">
+        <div class="inputList">
+            <label for="input">Enter each grocery item here: </label>
+            <input type="text" name="input" id="grocery">
+            <button id="addGrocery">Add</button>
+        </div>
+        <div class="outputList">
+            <button id="output">Show Grocery List</button>
+            <textarea name="outputList" id="theOutputList" cols="30" rows="10"></textarea>
+        </div>
+    </div>
+    <button id="colorChange">Click here for a color change</button>
+    <input type="text" name="inputText" id="inputColorText" placeholder="enter the color to change the button">
+    <br>
+    <textarea name="a" id="colorArea" cols="30" rows="10"></textarea>
+    <button id="colorPicker">Change the Text Area with a Color Picker</button>
+    <input type="color" name="b" id="colorPick">
+</body>
+</html>
