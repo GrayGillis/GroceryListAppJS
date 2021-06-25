@@ -25,6 +25,7 @@ outputButton.addEventListener("click", function(){
         newOutputText.push("• " + inputArray[i]);
     }
     outputText.value = newOutputText.join("\n");
+    inputArray = [];//emptys the array
 })
 
 // changes the button from the user input on click (textfield)
