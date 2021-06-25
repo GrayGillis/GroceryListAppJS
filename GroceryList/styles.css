@@ -1,0 +1,60 @@
+body{
+    margin-left: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, red, blue);
+}
+
+label{
+    font-weight: 700;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.theList{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 70px;
+}
+
+#addGrocery{
+    background-color: darkorange;
+}
+
+#addGrocery:hover{
+    opacity: 30%;
+}
+
+#output{
+    background-color: fuchsia;
+}
+
+#output:hover{
+    opacity: 30%;
+}
+
+#colorChange{
+    background-color: chartreuse;
+}
+
+#colorChange:hover{
+    opacity: 60%;
+}
+
+#inputColorText{
+    width: 250px;
+}
+
+#colorArea{
+    margin: 20px;
+}
+
+#colorPicker{
+    background-color:gold
+}
+
+#colorPicker:hover{
+    opacity: 50%;
+}
